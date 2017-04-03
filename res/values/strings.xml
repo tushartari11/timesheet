@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Timesheet</string>
+    <string name="task_list_activity">Tasks</string>
+    <string name="task_edit_activity">Edit Task</string>
+    <string name="time_list_activity">Time Entries</string>
+    <string name="time_edit_activity">Time Entry Edit</string>
+    <string name="export_activity">Export to CSV</string>
+    <string name="task_prompt">Select a Task:</string>
+    <string name="help_summary">
+        \n<b>Welcome to Timesheet!</b>\n\n
+        To start, add some tasks to Timesheet.
+        Tasks can be billable tasks such as "Project Documentation" or
+        unbillable tasks such as "Lunch".  Use the "Add Task" menu 
+        option to add a task.\n
+        \n
+        After tasks have been added, click on a task to select it as
+        the current task.  The checkbox shows which task you are 
+        currently working on.  Selecting a new task will close out
+        the current one and start the new task.  Selecting the 
+        current task will close it out without starting a new one.\n
+        \n
+        To get a report of hours, use the "Time List" menu option to
+        get a report of time by day or by week.\n
+        \n
+    </string>
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="days_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>
